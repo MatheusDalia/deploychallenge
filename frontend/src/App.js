@@ -7,7 +7,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3001/hello")
+      .get("http://deploychallengeback.vercel.app/hello")
       .then((response) => {
         setMessage(response.data);
       })
